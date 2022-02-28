@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: #EDEAD0;
+}
+.container2{/*1 Tekst*/
+    font-size: 72px;
+    color: #3AB795;
+    height: 440px;
+    width: 45%;
+    word-wrap: break-word; /*Force word breaks*/
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    height: 100vh;
+}
+
+.registerContainer { /*2 <div class="tilmelding"/div>*/
+    height: 100vh;
+    justify-content: center /*gør intet for nu*/;
+    align-items: center;
+    color: #3AB795;
+    font-weight: bold;
+    width: 45%;
+    float: left;
+
+}
+
+
+.container .title {
+    font-size: 25px;
+    font-weight: 900;
+    position: center;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.container .title::before{ /*TILMELDING*/
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 134px;
+    background: linear-gradient(145deg, #FFCF56, #EDEAD0);
+}
+.container form .user-details {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+form .user-details .input-box {
+    margin-bottom: 20px;
+    width: 200px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+}
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input {
+    height: 45px;
+    width: 220px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #FFCF56;
+    padding-left: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus, /*Fokus på feltet skifter "borders" farve*/
+.user-details .input-box input:valid {
+border-color: #3AB795;
+ }
+
+form .button input { /*"Tilmeld"-BUTTON*/
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    border: 1px solid #3AB795;
+    transition: all 0.3s ease;
+    font-weight: 900;
+    font-size: 27px;
+    background: #3AB795;
+    color: #EDEAD0;
+    text-transform: uppercase;
+}
