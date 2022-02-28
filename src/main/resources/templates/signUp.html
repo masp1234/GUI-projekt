@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/styles/navbar.css" th:href="@{/styles/navbar.css}">
+    <link rel="stylesheet" href="../static/styles/footer.css" th:href="@{/styles/footer.css}">
+    <link rel="stylesheet" href="../static/styles/signUpStyle.css" th:href="@{/styles/signUpStyle.css}">
     <link rel="stylesheet" href="/src/main/resources/static/styles/signUpStyle.css" th:href="@{/styles/signUpStyle.css}"> <!--Path til .css https://youtu.be/YNSnugnQYiI?t=699-->
     <title>Title</title>
 </head>
 <body>
+
+<div class="navbar">
+    <div class="left-navbar">
+        <a href="#">
+            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
+        </a>
+    </div>
+    <div class="right-navbar">
+        <ul class="ul-navbar">
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Tilmeld</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+</div>
 <div class="container">
     <div class="container2">
         <span style="color: #b73a5c">STOP MADSPILD!</span> Bliv en del af vores team
@@ -40,5 +61,38 @@
     </div>
 
 </div>
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="undersider">
+            <ul class="foot-ul">
+                <li class="heading">Undersider</li>
+                <li><a class="link-animation" href="#">About</a></li>
+                <li><a class="link-animation" href="#">News</a></li>
+                <li><a class="link-animation" href="#">Tilmeld</a></li>
+                <li><a class="link-animation" href="#">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="legal">
+            <ul class="foot-ul">
+                <li class="heading">Legal</li>
+                <li><a class="link-animation" href="#">TERMS & CONDITIONS</a></li>
+                <li><a class="link-animation" href="#">PRIVACY POLICY</a></li>
+                <li><a class="link-animation" href="#">COOKIE POLICY</a></li>
+            </ul>
+        </div>
+        <div class="media">
+            <ul class="foot-ul">
+                <li class="heading">Social media</li>
+                <li><a href="#" class="fa fa-facebook"></a></span></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-google"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
