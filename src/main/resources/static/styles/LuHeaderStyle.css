@@ -40,9 +40,6 @@
     font-size: 18px;
     font-weight: 100;
 }
-.logoContainer h1 {
-    font-weight: 100;
-}
 .logoContainer h1 span { /*WASTE*/
     font-weight: 900;
     color: #b73a5c;

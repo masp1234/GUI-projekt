@@ -76,3 +76,24 @@ ul{
     list-style-type: none;
 
 }
+
+.navbar .left-navbar .logoContainer {
+    height: 100%;
+    display: table;
+    float: right;
+    padding-top: 15%;
+}
+
+.navbar .left-navbar .logoContainer h1 { /*FOOD*/
+    color: #3AB795;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+}
+.navbar .left-navbar .logoContainer h1 span { /*WASTE*/
+    font-weight: 900;
+    color: #b73a5c;
+}
