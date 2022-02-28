@@ -23,23 +23,28 @@
     font-size: 72px;
     color: #3AB795;
     height: 440px;
-    width: 45%;
+    width: 35%;
     word-wrap: break-word; /*Force word breaks*/
     font-weight: 900;
     text-align: left;
     text-transform: uppercase;
     float: left;
     height: 100vh;
+    padding-top: 15%;
+    margin-left: 10%;
 }
 
 .registerContainer { /*2 <div class="tilmelding"/div>*/
     height: 100vh;
     justify-content: center /*gør intet for nu*/;
-    align-items: center;
+    align-items:center;
     color: #3AB795;
     font-weight: bold;
-    width: 45%;
+    width: 25%;
     float: left;
+    padding-top: 15%;
+    margin-left: 30%;
+
 
 }
 
