@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+    margin-top: 50px;
     display: flex;
     height: 100vh;
     justify-content: space-around;
@@ -30,13 +31,13 @@ body {
 .registerContainer { /*2 <div class="tilmelding"/div>*/
     height: 100vh;
     justify-content: center /*gør intet for nu*/;
-    align-items:center;
+    align-self:center;
     color: #3AB795;
     font-weight: bold;
     width: 25%;
     float: left;
     padding-top: 5%;
-    margin-right: 17%;
+    margin-right: 3%;
 }
 
 .container .title {

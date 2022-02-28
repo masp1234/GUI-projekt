@@ -18,7 +18,7 @@ ul{
 
 
 
-/* ovennævnte er navbar */
+
 
 .container{
     margin-top: 20px;
@@ -88,7 +88,7 @@ ul{
 
 
 /* virker ikke fordi det er i en div maybe? */
-.first-picture .button-on-food:hover{
+.button-on-food:hover{
     background-color: #3ab795;
     cursor: pointer;
 }

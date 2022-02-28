@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
     <title></title>
     <link rel="stylesheet" th:href="@{/styles/contact.css}"/>
+    <link rel="stylesheet" href="/styles/navbar.css" th:href="@{/styles/navbar.css}">
 </head>
 <body>
+    <div class="navbar">
+        <div class="left-navbar">
+            <a href="#">
+                <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
+            </a>
+            <div class="logoContainer">
+                <h1>FOOD<span> WASTE</span></h1>
+            </div>
+        </div>
+    
+        <div class="right-navbar">
+            <ul class="ul-navbar">
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Tilmeld</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
