@@ -11,13 +11,6 @@
     justify-content: space-around;
     align-items: flex-end;
     background: #EDEAD0;
-
-    /* max-width: 400px;
-     width: 280px;
-     background: #EDEAD0;
-     padding: 25px 30px;
-     border-radius: 15px;
-     font-weight: bold; */
 }
 .container2{/*1 Tekst*/
     font-size: 72px;
