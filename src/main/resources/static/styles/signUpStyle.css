@@ -109,3 +109,40 @@ form .button input { /*"Tilmeld"-BUTTON*/
 .user-details .input-box span.details-button{
     margin-bottom: 40px;
 }
+
+.container3 {
+text-transform: uppercase;
+    margin-top: -140px;
+}
+.container3 .text {
+    margin-left: 650px;
+}
+.container3 .sponsors {
+    margin-left: 395px;
+    padding-bottom: 100px;
+}
+/*SPONSORS*/
+.container3 .sponsors .sponsorFøtex { /*Føtex*/
+    height: 90px;
+    width: 120px;
+}
+.container3 .sponsors .sponsorManU { /*Manchester United*/
+    height: 90px;
+    width: 100px;
+}
+.container3 .sponsors .sponsorNetto { /*Netto*/
+    height: 90px;
+    width: 100px;
+}
+.container3 .sponsors .sponsorRiotGames{ /*Riot Games*/
+    height: 100px;
+    width: 150px;
+}
+.container3 .sponsors .sponsorMarlboro { /*Marlboro*/
+    height: 90px;
+    width: 100px;
+}
+.container3 .sponsors .sponsorNBA{ /*NBA*/
+    height: 80px;
+    width: 120px;
+}

@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../static/styles/navbar.css" th:href="@{/styles/navbar.css}">
     <link rel="stylesheet" href="../static/styles/footer.css" th:href="@{/styles/footer.css}">
     <link rel="stylesheet" href="../static/styles/signUpStyle.css" th:href="@{/styles/signUpStyle.css}">
-    <link rel="stylesheet" href="/src/main/resources/static/styles/signUpStyle.css" th:href="@{/styles/signUpStyle.css}"> <!--Path til .css https://youtu.be/YNSnugnQYiI?t=699-->
+    <link rel="stylesheet" href="/src/main/resources/static/styles/signUpStyle.css"
+          th:href="@{/styles/signUpStyle.css}"> <!--Path til .css https://youtu.be/YNSnugnQYiI?t=699-->
     <title>FoodWaste</title>
 </head>
 <body>
@@ -14,7 +15,8 @@
 <div class="navbar">
     <div class="left-navbar">
         <a href="/">
-            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
+            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}"
+                 alt="Logo">
         </a>
         <div class="logoContainer">
             <h1>FOOD<span> WASTE</span></h1>
@@ -62,7 +64,18 @@
             </div>
         </form>
     </div>
+</div>
 
+<div class="container3">
+    <a class="text">Du er i godt selskab</a>
+    <div class="sponsors">
+        <img class="sponsorFøtex" src="/src/main/resources/static/images/sponsors/FøtexLogo.png" alt="Føtex"/>
+        <img class="sponsorManU" src="/src/main/resources/static/images/sponsors/ManULogo.png" alt="Manchester United"/>
+        <img class="sponsorNetto" src="/src/main/resources/static/images/sponsors/NettoLogo.png" alt="Netto"/>
+        <img class="sponsorRiotGames" src="/src/main/resources/static/images/sponsors/RiotGamesLogo.png" alt="RiotGames"/>
+        <img class="sponsorMarlboro" src="/src/main/resources/static/images/sponsors/MarlboroLogo.png" alt="Marlboro"/>
+        <img class="sponsorNBA" src="/src/main/resources/static/images/sponsors/NBALogo.png" alt="NBA"/>
+    </div>
 </div>
 
 <div class="footer">
@@ -87,15 +100,18 @@
         <div class="media">
             <ul class="foot-ul">
                 <li class="heading">Social media</li>
-                <li><a href="#" class="fa fa-facebook"></a></span></li>
-                <li><a href="#" class="fa fa-twitter"></a></li>
-                <li><a href="#" class="fa fa-google"></a></li>
-                <li><a href="#" class="fa fa-instagram"></a></li>
+                <div class="socialMedia">
+                    <li><a href="#" class="fa fa-facebook"></a></span></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </div>
 
             </ul>
         </div>
     </div>
 </div>
+
 
 </body>
 </html>
