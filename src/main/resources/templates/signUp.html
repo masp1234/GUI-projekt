@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{static/styles/signUpStyle.css}"> <!--Path til .css https://youtu.be/YNSnugnQYiI?t=699-->
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="container2">
+        <span style="color: #b73a5c">STOP MADSPILD!</span> Bliv en del af vores team
+    </div>
+    <div class="registerContainer">
+        <div class="title">Tilmelding
+        </div>
+        <form action="#"> <!--Til <input>: https://www.w3schools.com/html/html_forms.asp-->
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details-button">FORNAVN</span>
+                    <input type="text" placeholder=" Indtast dit fornavn" required>
+                    <!--Kommer ikke videre hvis feltet ikke er indtastet-->
+                </div>
+                <div class="input-box">
+                    <span class="details-button">EFTERNAVN</span>
+                    <input type="text" placeholder=" Indtast dit efternavn" required>
+                </div>
+                <div class="input-box">
+                    <span class="details-button">E-MAIL</span>
+                    <input type="email" placeholder=" Indtast din e-mail" required>
+                </div>
+                <div class="input-box">
+                    <span class="details-button">TELEFON</span>
+                    <input type="number" placeholder=" Indtast dit telefonnummer" required>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Tilmeld"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container3">
+        <span style="color: #b73a5c">STOP MADSPILD!</span> Bliv en del af vores team
+    </div>
+</div>
+</body>
+</html>
