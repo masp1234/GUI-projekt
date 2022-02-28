@@ -2,50 +2,18 @@ body {
     background-color: rgb(237, 234, 208);
 
 }
-.navbar {
-    height: 110px;
+.page-container {
+    margin-left: 20px;
+}
+
+.organization-container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    /*display: flex;
-    grid-template-columns: 35% 65%;*/
-    background-color: #EDEAD0;
-    
-    border-bottom-style: solid;
-
-    /* Virker ikke med sticky hvis vi vil have billedet med en knap*/
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    /* fordi vores sticky navbar skal gå over billedet*/
-     /* kun hvis nav bar skal være sticky*/
-    
+    align-self: flex-start;
 }
-li {
-    display: inline;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: #104d4c;
-    text-decoration: none;
-
-    transition: 0.5s;
-
-}
-li a {
-    text-decoration: none;
-    
-}
-li a:hover {
-    color: #3ab795;
-    border-bottom-style: double;
-    padding-bottom: 6px;
-}
-
-.flex-container {
+.vision-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -61,6 +29,8 @@ li a:hover {
     border-radius: 25px;
     margin-top: 30px;
     border-style: solid;
+    align-self: flex-start
+
 
 }
 .image {
