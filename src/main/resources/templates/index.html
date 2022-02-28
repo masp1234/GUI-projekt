@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodWaste</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../static/styles/index.css" th:href="@{/styles/index.css}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="navbar">
         <div class="left-navbar">
             <a href="#">
-            <img class="top-logo" src="FoodWaste-LOGO3.png" alt="Logo">
+            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
             </a>
         </div>
             <div class="right-navbar">
@@ -34,7 +34,7 @@
 <div class="container">
 
     <div class="first-picture">
-        <img class="food" src="Foodwaste.jpeg" alt="field">
+        <img class="food" src="../static/images/Foodwaste.jpeg" th:src="@{/images/Foodwaste.jpeg}" alt="field">
         <button class="button-on-food"> Tilmeld nyheder</button>
     </div>
 
@@ -43,11 +43,11 @@
 
 
     
-    <h2>Madspild</h1>
+    <h2>Madspild</h2>
     
 <div class="facts1-container">
     
-    <img class="trashcan" src="trashcan.png" alt="trashcan">
+    <img class="trashcan" src="../static/images/trashcan.png" th:src="@{/images/trashcan.png}" alt="trashcan">
     <div class="facts1">
         <p class="inline">- Samlet smider vi i Danmark hvert år over 800.000 ton mad ud</p>
         <p class="inline">- Husholdningernes madspild udgør 247.000 ton pr. år</p>
@@ -62,7 +62,7 @@
         <p>- Det største madspild i servicesektoren stammer fra detailhandelen, der spilder 163.000 tons pr. år.</p>
         <p>- Madspild ligger på en tredjeplads over verdens værste klimasyndere.</p>
     </div>
-    <img class="waste" src="waste2.png" alt="waste">
+    <img class="waste" src="../static/images/waste2.png" th:src="@{/images/waste2.png}" alt="waste">
 </div>
 </div>
 
