@@ -15,7 +15,18 @@ public class GuiController {
     public String about() {
         return "about";
     }
-  // @GetMapping("/")
+    @GetMapping("/signUp")
+    public String signUp() {
+        return "signUp";
+    }
+    @GetMapping("/kontakt")
+    public String contact() {
+        return "contact";
+    }
+    @GetMapping("/nyheder")
+        public String news() {
+            return "news";
+        }
+    }
 
 
-}
