@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    background-color: #EDEAD0;
+    padding: 0px;
+
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
