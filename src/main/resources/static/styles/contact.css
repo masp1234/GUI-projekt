@@ -16,12 +16,13 @@ ul{
 
 .container{
     margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     justify-content: center;
 }
 .img{
     padding-left: 30px;
+
 }
 
