@@ -23,30 +23,14 @@
     font-size: 72px;
     color: #3AB795;
     height: 440px;
-    width: 50%;
+    width: 45%;
     word-wrap: break-word; /*Force word breaks*/
     font-weight: 900;
     text-align: left;
     text-transform: uppercase;
-    margin: auto;
-    margin-right: 50px;
     float: left;
+    height: 100vh;
 }
-
-.container3 { /*Fill container*/
-    font-size: 72px;
-    color: black;
-    height: 440px;
-    width: 50%;
-    word-wrap: break-word;
-    font-weight: 900;
-    text-align: left;
-    text-transform: uppercase;
-    margin: auto;
-    margin-right: 100px;
-    float: right;
-}
-
 
 .registerContainer { /*2 <div class="tilmelding"/div>*/
     height: 100vh;
@@ -54,9 +38,9 @@
     align-items: center;
     color: #3AB795;
     font-weight: bold;
-    width: 50%;
-    margin-bottom: -11%;
-    margin-right: 200px;
+    width: 45%;
+    float: left;
+
 }
 
 
