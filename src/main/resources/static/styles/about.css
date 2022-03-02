@@ -4,30 +4,27 @@ body {
 }
  .page-container {
     display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 150px;
+    background: rgba(29, 138, 29, 0.568);
+    border-radius: 10px;
+    
+    
 
 
  }
 .organization-container{
-     
     display: flex; 
     flex-direction: row; 
     
 }
 .vision-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row-reverse; 
 }
 .container {
-
     align-items:center;
-    border-radius: 20px;
-    margin-top: 20px;
-    background-color: rgba(29, 138, 29, 0.479);
+    
     
     
 }
@@ -41,16 +38,27 @@ body {
     margin-top: 30px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1;
     
 
 
 }
-img {
-    border-radius: 20px;
+ img {
+    border-radius: 40px;
     height: auto;
     max-width: 100%;
-    
-    
-    
-    
+    padding: 30px;    
 } 
+
+/* Laver en streg under title class */
+ .title:after {
+    content:"";
+    display:block;
+    width: 10em;
+    max-width:70%;
+    border-bottom: 0.15em solid rgb(255, 255, 255);
+    
+}
+
+
+
