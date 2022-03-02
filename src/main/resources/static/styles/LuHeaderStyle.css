@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color:#EDEAD0;
+}
+
+.innerHeader {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+    float: left;
+
+}
+
+.logoContainer {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logoContainer h1 { /*FOOD*/
+    color: #3AB795;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+.logoContainer h1 span { /*WASTE*/
+    font-weight: 900;
+    color: #b73a5c;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-transform:uppercase;
+}
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #3AB795;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 750;
+}
+
+.navigation a:after {
+    content: "";
+    position: absolute;
+    background-color: #b73a5c;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navigation a:hover {
+    color:#ffffff;
+}
+.navigation a:hover:after {
+    width: 100%;
+
+}

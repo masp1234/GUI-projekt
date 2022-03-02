@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap');
+body{
+    margin: 0;
+    background-color: #EDEAD0;
+    color: #b73a5c; /*Heading text color*/
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+/* footer */
+.footer{
+
+    height: 350px;
+   /* background-color: #1e6b6a;*/
+    background-color: #3AB795;
+}
+
+.footer .footer-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+
+.undersider ul, .legal ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.heading{
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.foot-ul li{
+    margin: 12px 0px 6px 0px;
+
+}
+
+
+.link-animation{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.link-animation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition:  .3s;
+}
+
+.link-animation:hover::after {
+    width: 100%;
+
+}
+
+.footer .footer-content .media a{ /*Social media*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.media ul {
+    /* display: block;*/
+
+}
+
+.media .socialMedia {
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 7px;
+
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 1.5vh;
+
+  }
+
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+      width: 15px;
+      height: 15px;
+      border-radius: 1.5vh;
+  }
+
+  .fa-instagram {
+      /*background: #125688;*/
+      background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);;
+      /*Jeg har ændret det til de mere moderne farver*/
+      color: white;
+      width: 15px;
+      height: 15px;
+      border-radius: 1.5vh;
+  }
+
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+      width: 15px;
+      height: 15px;
+      border-radius: 1.5vh;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap');
+body{
+    margin: 0;
+    background-color: #EDEAD0;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+
+.container{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    padding-left: 30px;
+
+}
+

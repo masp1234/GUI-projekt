@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap');
+body{
+    margin: 0;
+    background-color: #EDEAD0;
+}
+.navbar{
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*display: flex;
+    grid-template-columns: 35% 65%;*/
+    background-color: #EDEAD0;
+
+    border-bottom-style: solid;
+
+    /* Virker ikke med sticky hvis vi vil have billedet med en knap*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* fordi vores sticky navbar skal gå over billedet*/
+     /* kun hvis nav bar skal være sticky*/
+
+}
+.ul-navbar li a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #104d4c;
+    text-decoration: none;
+
+    transition: 0.5s;
+
+
+}
+
+
+.ul-navbar li a:hover {
+    color: #b73a5c;
+    border-bottom-style: double;
+    padding-bottom: 6px;
+}
+
+
+
+
+
+.right-navbar{
+    align-items: center;
+
+}
+.top-logo{
+    width: 110px;
+    height: 110px;
+    transition: 2s;
+}
+
+.top-logo:hover{
+    transform: scale(1.10);
+
+}
+
+.right-navbar .home{
+    border-bottom-style: double;
+    padding-bottom: 6px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.navbar .left-navbar .logoContainer {
+    height: 100%;
+    display: table;
+    float: right;
+    padding-top: 15%;
+}
+
+.navbar .left-navbar .logoContainer h1 { /*FOOD*/
+    color: #3AB795;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 100;
+}
+.navbar .left-navbar .logoContainer h1 span { /*WASTE*/
+    font-weight: 900;
+    color: #b73a5c;
+}
