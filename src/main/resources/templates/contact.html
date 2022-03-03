@@ -11,91 +11,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="left-navbar">
-            <a href="/">
-                <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
-            </a>
-            <div class="logoContainer">
-                <h1>FOOD<span> WASTE</span></h1>
-            </div>
-        </div>
-
-        <div class="right-navbar">
-            <ul class="ul-navbar">
-                <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="/signUp">Tilmeld</a></li>
-                <li><a href="#" class="home">Kontakt</a></li>
-            </ul>
-
+<div class="navbar">
+    <div class="left-navbar">
+        <a href="/">
+            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}"
+                 alt="Logo">
+        </a>
+        <div class="logoContainer">
+            <h1>FOOD<span> WASTE</span></h1>
         </div>
     </div>
 
+    <div class="right-navbar">
+        <ul class="ul-navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="/signUp">Tilmeld</a></li>
+            <li><a href="#" class="home">Kontakt</a></li>
+        </ul>
 
+    </div>
+</div>
 
+</div>
+<div class="container">
+    <div class="banner"><img class="img" src="../static/images/support.jpg" th:src="@{/images/support.jpg}"
+                             alt="Medarbejder">
+    </div>
+    <div class="floatContainer1">
 
-    <div class="container">
-        <div class="text">
-            <h3>Kundehenvendelse</h3>
+        <div class="customerInquiry">
+            <h3><br><img class="iconMail" src="/src/main/resources/static/images/icons/mail.png"
+                     th:src="@{images/icons/mail.png}" alt="Mail"/></br>Kundehenvendelse</h3>
             <p>E-mail: firmainformation@foodwaste.dk</p>
             <p>Eller anvend vores kontakt formular</p>
             <p>Vi svarer inden for 24 timer</p>
-            <h3>Telefon:</h3>
+        </div>
+
+    </div>
+    <div class="floatContainer2">
+        <div class="telephone">
+            <h3><br><img class="iconTelephone" src="/src/main/resources/static/images/icons/telephone.png"
+                     th:src="@{images/icons/telephone.png}" alt="Telefon"/></br>Telefon</h3>
             <p>69 69 69 69 (mandag til fredag, mellem 08.00 - 20.00.)</p>
-            <h3>Vores oplysninger</h3>
+        </div>
+    </div>
+
+    <div class="floatContainer3">
+        <div class="information">
+            <h3><br><img class="iconInfo" src="/src/main/resources/static/images/icons/info.png"
+                     th:src="@{images/icons/info.png}" alt="Info"/></br>Vores oplysninger</h3>
             <p>Betalingsmodtager: FoodWaste</p>
             <p>Registreringsnummer: 2149</p>
             <p>Kontonummer: 6969696969</p>
             <p>Bank: Nordea Bank Danmark A/S</p>
-            <h3>Firma adresse:</h3>
+        </div>
+    </div>
+    <div class="floatContainer4">
+        <div class="adress">
+            <h3><br><img class="iconPlaceholder" src="/src/main/resources/static/images/icons/placeholder.png"
+                     th:src="@{images/icons/placeholder.png}" alt="Placeholder"/></br>Firma adresse</h3>
             <p>FoodWaste</p>
             <p>Guldbergsgade 29N</p>
             <p>2200 København N</p>
             <p>Danmark</p>
-
-        </div>
-        <div>
-            <img class="img" src="../static/images/medarbejder.jpg" th:src="@{/images/medarbejder.jpg}" alt="Medarbejder">
         </div>
     </div>
 
+</div>
 
+<div class="footer">
+    <div class="footer-content">
+        <div class="undersider">
+            <ul class="foot-ul">
+                <li class="heading">Undersider</li>
+                <li><a class="link-animation" href="#">About</a></li>
+                <li><a class="link-animation" href="#">News</a></li>
+                <li><a class="link-animation" href="/signUp">Tilmeld</a></li>
+                <li><a class="link-animation" href="#">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="legal">
+            <ul class="foot-ul">
+                <li class="heading">Legal</li>
+                <li><a class="link-animation" href="#">TERMS & CONDITIONS</a></li>
+                <li><a class="link-animation" href="#">PRIVACY POLICY</a></li>
+                <li><a class="link-animation" href="#">COOKIE POLICY</a></li>
+            </ul>
+        </div>
+        <div class="media">
+            <ul class="foot-ul">
+                <li class="heading">Social media</li>
+                <div class="socialMedia">
+                    <li><a href="#" class="fa fa-facebook"></a></span></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </div>
 
-
-    <div class="footer">
-        <div class="footer-content">
-            <div class="undersider">
-                <ul class="foot-ul">
-                    <li class="heading">Undersider</li>
-                    <li><a class="link-animation" href="#">About</a></li>
-                    <li><a class="link-animation" href="#">News</a></li>
-                    <li><a class="link-animation" href="/signUp">Tilmeld</a></li>
-                    <li><a class="link-animation" href="#">Kontakt</a></li>
-                </ul>
-            </div>
-            <div class="legal">
-                <ul class="foot-ul">
-                    <li class="heading">Legal</li>
-                    <li><a class="link-animation" href="#">TERMS & CONDITIONS</a></li>
-                    <li><a class="link-animation" href="#">PRIVACY POLICY</a></li>
-                    <li><a class="link-animation" href="#">COOKIE POLICY</a></li>
-                </ul>
-            </div>
-            <div class="media">
-                <ul class="foot-ul">
-                    <li class="heading">Social media</li>
-                    <div class="socialMedia">
-                        <li><a href="#" class="fa fa-facebook"></a></span></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-google"></a></li>
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                    </div>
-
-                </ul>
-            </div>
+            </ul>
         </div>
     </div>
+</div>
 </body>
 </html>

@@ -28,6 +28,11 @@ body {
     padding-top: 3%;
     margin-left: 10%;
 }
+
+.container2 span {
+    color: #b73a5c;
+}
+
 .registerContainer { /*2 <div class="tilmelding"/div>*/
     height: 100vh;
     justify-content: center /*gør intet for nu*/;
