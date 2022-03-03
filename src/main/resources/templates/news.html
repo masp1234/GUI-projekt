@@ -1,11 +1,218 @@
-**<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title></title>
-    <link rel="stylesheet" th:href="@{/styles/news.css}"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS ABOUT FoodWaste</title>
+    <link rel="stylesheet" href="../static/styles/news.css" th:href="@{/styles/news}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/styles/navbar.css" th:href="@{/styles/navbar.css}">
+    <link rel="stylesheet" href="../static/styles/footer.css" th:href="@{/styles/footer.css}">
+
+    <style>
+        a{
+            
+            color: #104d4c;
+        }
+        a:hover{
+            color: #b73a5c;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .mainContent{
+         width: 70%;
+
+        }
+        .topContent{
+            background-color: beige;
+            margin: 10px;
+            border-radius: 10px;
+
+            display: flex;
+        }
+        .newsImg{
+            width: 30%;
+
+        }
+        .artContent{
+            padding: 5px;
+            width: 70%;
+        }
+        .breakingNews{
+
+            background-color: black;
+            display: flex;
+        }
+        .breakingNews-span{
+            padding-left:15px ;
+            width: 200px;
+            font-size: 16px;
+            font-weight: 600;
+            margin: auto 0;
+        }
+        .breakingNewsLink{
+            color: #EDEAD0;
+            padding: 15px;
+            font-weight: 800;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .breakingNews .marquee a:hover{
+            color: #104d4c;
+
+        }
+        .breakingNewsDate{
+            display: inline-block;
+            color: #b73a5c;
+        }
+
+
+
+    </style>
 </head>
-<body>
+<body class="newsbody">
+
+<div class="navbar">
+    <div class="left-navbar">
+        <a href="/">
+            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
+        </a>
+        <div class="logoContainer">
+            <h1>FOOD<span> WASTE</span></h1>
+        </div>
+    </div>
+    <div class="right-navbar">
+        <ul class="ul-navbar">
+            <li><a href="/" class="home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/nyheder">News</a></li>
+            <li><a href="/signUp">Tilmeld</a></li>
+            <li><a href="/kontakt">Kontakt</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="breakingNews">
+    <span class="breakingNews-span"> BREAKING NEWS</span>
+    <marquee class="marquee">
+        <a href="https://finans.dk/erhverv/ECE12446098/foedevarevirksomheder-skal-halvere-madspild-i-ny-aftale/?ctxref=ext" class="breakingNewsLink">
+            <p class="breakingNewsDate"> 28 feb 2022:
+            </p> Fødevarevirksomheder skal halvere madspild i ny aftale </a>
+        <a href="https://ernaeringsfokus.dk/nyheder-og-events/nyheder/apr-2019-ny-datomaerkning-skal-reducere-madspild" class="breakingNewsLink">
+            <p class="breakingNewsDate"> 27 feb 2022:
+            </p> Ny datomærkning skal reducere madspild </a>
+        <a href="https://fvm.dk/nyheder/nyhed/nyhed/foerste-samlede-kortlaegning-af-madspild-i-danmark-offentliggoeres/" class="breakingNewsLink">
+            <p class="breakingNewsDate"> 26 feb 2022:
+            </p> Første samlede kortlægning af madspild i Danmark offentliggøres </a>
+        <a href="https://nyheder.okologi.dk/mad-og-marked/wefood-saetter-ny-rekord-og-abner-ny-butik" class="breakingNewsLink">
+            <p class="breakingNewsDate"> 25 feb 2022:
+            </p>Wefood sætter ny rekord og åbner ny butik </a>
+
+    </marquee>
+
+</div>
+
+
+
+
+
+   <div class="mainContent">
+
+
+       <section class="topContent">
+           <a href="https://finans.dk/erhverv/ECE12446098/foedevarevirksomheder-skal-halvere-madspild-i-ny-aftale/?ctxref=ext" class="newsImg">
+           <img src="news-1.jpeg" > </a>
+        
+        <article class="artContent">
+        <h1 class="contentHeader">
+            <a href="https://finans.dk/erhverv/ECE12446098/foedevarevirksomheder-skal-halvere-madspild-i-ny-aftale/">Fødevarevirksomheder skal halvere madspild i ny aftale</a>
+        </h1>
+        <footer class="contentFooter"></footer>
+        <p>En række af landets største virksomheder i fødevarebranchen skriver under på en aftale om at halvere deres madspild inden 2030.</p>
+        <p>Det sker tirsdag klokken 9 i forbindelse med Danmarks første nationale madspildsdag, oplyser Miljø- og Fødevareministeriet.</p>
+              </article>
+    </section>
+       <section class="topContent">
+           <a href="https://ernaeringsfokus.dk/nyheder-og-events/nyheder/apr-2019-ny-datomaerkning-skal-reducere-madspild" class="newsImg">
+               <img src="news-2.jpeg"  > </a>
+
+           <article class="artContent">
+               <h1 class="contentHeader">
+                   <a href="https://ernaeringsfokus.dk/nyheder-og-events/nyheder/apr-2019-ny-datomaerkning-skal-reducere-madspild">Ny datomærkning skal reducere madspild</a>
+               </h1>
+               <footer class="contentFooter"></footer>
+               <p>Madspild er en væsentlig faktor i forsøget på at leve mere bæredygtigt.</p>
+               <p>En ny datomærkning på fødevarer skal hjælpe forbrugerne til at reducere deres madspild. Læs om den nye mærkning her.</p>
+           </article>
+       </section>
+       <section class="topContent">
+           <a href="https://fvm.dk/nyheder/nyhed/nyhed/foerste-samlede-kortlaegning-af-madspild-i-danmark-offentliggoeres/" class="newsImg">
+               <img src="news-3.jpeg" > </a>
+
+           <article class="artContent">
+               <h1 class="contentHeader">
+                   <a href="https://fvm.dk/nyheder/nyhed/nyhed/foerste-samlede-kortlaegning-af-madspild-i-danmark-offentliggoeres/">Første samlede kortlægning af madspild i Danmark offentliggøres</a>
+               </h1>
+               <footer class="contentFooter"></footer>
+               <p>Fra i dag er det for første gang muligt at se en detaljeret oversigt over, hvilke brancher der genererer mest madspild.
+                   <br> Fødevareministeren ser perspektiver i åbenhed.</p>
+
+           </article>
+       </section>
+       <section class="topContent">
+           <a href="https://nyheder.okologi.dk/mad-og-marked/wefood-saetter-ny-rekord-og-abner-ny-butik" class="newsImg">
+               <img src="news-4.webp" > </a>
+
+           <article class="artContent">
+               <h1 class="contentHeader">
+                   <a href="https://nyheder.okologi.dk/mad-og-marked/wefood-saetter-ny-rekord-og-abner-ny-butik">Wefood sætter ny rekord og åbner ny butik</a>
+               </h1>
+               <footer class="contentFooter"></footer>
+               <p>
+                   2021 blev et godt år for Folkekirkens Nødhjælps seks Wefood-butikker, som reddede 417 tons fødevarer fra skraldespanden.
+                   <br> Det er en stigning på 18 pct.sammenlignet med året før.
+               </p>
+           </article>
+       </section>
+        </div>
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="undersider">
+            <ul class="foot-ul">
+                <li class="heading">Undersider</li>
+                <li><a class="link-animation" href="#">About</a></li>
+                <li><a class="link-animation" href="#">News</a></li>
+                <li><a class="link-animation" href="#">Tilmeld</a></li>
+                <li><a class="link-animation" href="/contact">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="legal">
+            <ul class="foot-ul">
+                <li class="heading">Legal</li>
+                <li><a class="link-animation" href="#">TERMS & CONDITIONS</a></li>
+                <li><a class="link-animation" href="#">PRIVACY POLICY</a></li>
+                <li><a class="link-animation" href="#">COOKIE POLICY</a></li>
+            </ul>
+        </div>
+        <div class="media">
+            <ul class="foot-ul">
+                <li class="heading">Social media</li>
+                <div class="socialMedia">
+                    <li><a href="#" class="fa fa-facebook"></a></span></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </div>
+
+            </ul>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
