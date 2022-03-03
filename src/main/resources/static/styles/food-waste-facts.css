@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(237, 234, 208);
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 350px;
+    background-color: rgba(29, 119, 29, 0.596);
+    border-radius: 10px;
+
+ }
+.header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.header:after {
+    content:"";
+    display:block;
+    width: 10em;
+    max-width:70%;
+    border-bottom: 0.15em solid rgb(255, 255, 255);
+}

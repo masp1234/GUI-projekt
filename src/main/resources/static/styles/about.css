@@ -9,17 +9,16 @@ body {
     border-radius: 10px;
 
  }
-.organization-container{
+.container-1{
     display: flex; 
     flex-direction: row; 
     
 }
-.vision-container {
+.container-2 {
     display: flex;
     flex-direction: row-reverse; 
 }
 .container {
-    
     justify-content: center
 }
 .flex-item {
@@ -32,13 +31,13 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex: 1;
 }
- img {
+.page-container img {
     border-radius: 40px;
     height: auto;
     max-width: 100%;
     padding: 30px;    
-}
-.image {
+} 
+.image-container {
     align-self: center;
 
 }
@@ -49,6 +48,7 @@ body {
     width: 10em;
     max-width:70%;
     border-bottom: 0.15em solid rgb(255, 255, 255);
+
     
 }
 
