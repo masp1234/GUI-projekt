@@ -12,26 +12,8 @@
 </head>
 <body>
 
-<div class="navbar">
-    <div class="left-navbar">
-        <a href="/">
-            <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}"
-                 alt="Logo">
-        </a>
-        <div class="logoContainer">
-            <h1>FOOD<span> WASTE</span></h1>
-        </div>
-    </div>
-    <div class="right-navbar">
-        <ul class="ul-navbar">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#" class="home">Tilmeld</a></li>
-            <li><a href="/kontakt">Kontakt</a></li>
-        </ul>
-    </div>
-</div>
+
+<div th:replace="navbar :: navbar"></div>
 
 <div class="container">
     <div class="container2">
@@ -79,40 +61,7 @@
     </div>
 </div>
 
-<div class="footer">
-    <div class="footer-content">
-        <div class="undersider">
-            <ul class="foot-ul">
-                <li class="heading">Undersider</li>
-                <li><a class="link-animation" href="#">About</a></li>
-                <li><a class="link-animation" href="#">News</a></li>
-                <li><a class="link-animation" href="#">Tilmeld</a></li>
-                <li><a class="link-animation" href="/kontakt">Kontakt</a></li>
-            </ul>
-        </div>
-        <div class="legal">
-            <ul class="foot-ul">
-                <li class="heading">Legal</li>
-                <li><a class="link-animation" href="#">TERMS & CONDITIONS</a></li>
-                <li><a class="link-animation" href="#">PRIVACY POLICY</a></li>
-                <li><a class="link-animation" href="#">COOKIE POLICY</a></li>
-            </ul>
-        </div>
-        <div class="media">
-            <ul class="foot-ul">
-                <li class="heading">Social media</li>
-                <div class="socialMedia">
-                    <li><a href="#" class="fa fa-facebook"></a></span></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-google"></a></li>
-                    <li><a href="#" class="fa fa-instagram"></a></li>
-                </div>
-
-            </ul>
-        </div>
-    </div>
-</div>
-
+<div th:replace="footer :: footer"></div>
 
 </body>
 </html>

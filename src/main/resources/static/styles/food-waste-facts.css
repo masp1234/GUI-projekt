@@ -4,7 +4,7 @@ body {
 .page-container {
     display: flex;
     flex-direction: column;
-    margin: 40px 450px;
+    margin: 40px 25% ;
     background-color: rgba(29, 119, 29, 0.418);
     border-radius: 10px;
 

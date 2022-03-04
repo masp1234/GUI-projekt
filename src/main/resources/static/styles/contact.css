@@ -93,6 +93,10 @@ ul {
 
 
 }
+
+p {
+    color: #104d4c;
+}
 .floatContainer1 {
     height: 250px;
     box-shadow: 0 2px 4px #b73a5c;
@@ -123,4 +127,8 @@ ul {
 .container h3 {
     font-family: sans-serif;
     font-weight: 790;
+}
+
+p1 { /*email og tlf */
+    color: #b73a5c;
 }
