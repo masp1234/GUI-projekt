@@ -27,9 +27,7 @@ body {
 .container {
     justify-content: center
 }
-.flex-item {
-    
-}
+
  .text {
     align-self: flex-start;
     padding: 10px 30px;
@@ -48,12 +46,10 @@ body {
 
 }
 /* Laver en streg under title class */
- .title:after {
-    content:"";
-    display:block;
-    width: 10em;
-    max-width:70%;
-    border-bottom: 0.15em solid rgb(255, 255, 255);
+ .title {
+    color: #ffffff;
+    border-bottom-style: double;
+    padding-bottom: 6px;
 
     
 }
