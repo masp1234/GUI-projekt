@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="navbar">
+
+<div th:fragment="navbar" class="navbar">
     <div class="left-navbar">
         <a href="#">
             <img class="top-logo" src="../static/images/FoodWaste-LOGO3.png" th:src="@{/images/FoodWaste-LOGO3.png}" alt="Logo">
@@ -21,14 +22,15 @@
 
     <div class="right-navbar">
         <ul class="ul-navbar">
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Facts</a></li>
-            <li><a href="#">Tilmeld</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="/">HJEM</a></li>
+            <li><a href="/nyheder">NYHEDER</a></li>
+            <li><a href="/fact">FAKTA</a></li>
+            <li><a href="/signUp">TILMELD</a></li>
+            <li><a href="/about" class="home">OM OS</a></li>
+            <li><a href="/kontakt">KONTAKT</a></li>
 
         </ul>
     </div>
 </div>
 </body>
+
