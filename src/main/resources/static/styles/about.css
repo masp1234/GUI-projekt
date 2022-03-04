@@ -1,6 +1,12 @@
 body {
     background-color: rgb(237, 234, 208);
 }
+
+.about{
+    border-bottom-style: double;
+    padding-bottom: 6px;
+
+}
  .page-container {
     display: flex;
     flex-direction: column;

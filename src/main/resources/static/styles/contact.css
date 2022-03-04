@@ -7,6 +7,11 @@ body {
 
 }
 
+.contact{
+    border-bottom-style: double;
+    padding-bottom: 6px;
+
+}
 
 ul {
     display: flex;
