@@ -4,6 +4,11 @@ body {
     box-sizing: border-box; /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
     font-family: sans-serif;
 }
+.signup{
+    border-bottom-style: double;
+    padding-bottom: 6px;
+
+}
 
 .container {
     margin-top: 50px;

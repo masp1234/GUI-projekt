@@ -64,11 +64,7 @@ body{
 
 }
 
-.right-navbar .home{
-    border-bottom-style: double;
-    padding-bottom: 6px;
 
-}
 
 ul{
     display: flex;
