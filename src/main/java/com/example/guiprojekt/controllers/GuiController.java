@@ -27,6 +27,10 @@ public class GuiController {
         public String news() {
             return "news";
         }
+    @GetMapping("/fact")
+    public String fact() {
+        return "food-waste-facts";
     }
+}
 
 
