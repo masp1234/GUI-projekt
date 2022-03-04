@@ -10,14 +10,44 @@ body {
 .page-container {
     display: flex;
     flex-direction: column;
-    margin: 40px 25% ;
-    background-color: rgba(29, 119, 29, 0.418);
+    margin: 40px 20%;
+    background-color: rgba(29, 119, 29, 0.596);
     border-radius: 10px;
-
  }
 .header{
     margin: 30px 30px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
+.container-1{
+    display: flex;
+    flex-direction: row;
+
+}
+.container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container {
+    justify-content: center
+}
+
+.text {
+    align-self: flex-start;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1;
+}
+.page-container img {
+    border-radius: 40px;
+    height: auto;
+    max-width: 100%;
+    padding: 30px;
+}
+.image-container {
+    align-self: center;
+}
+
+
 
