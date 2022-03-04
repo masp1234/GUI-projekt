@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #EDEAD0;
     color: #b73a5c; /*Heading text color*/
+    font-family: sans-serif;
 }
 
 
@@ -66,8 +67,6 @@ li{
 
 
 
-
-
 .link-animation::after {
     content: '';
     display: block;
@@ -85,15 +84,6 @@ li{
 .footer .footer-content .media a{ /*Social media*/
 
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -160,3 +150,11 @@ li{
   .fa:hover {
     opacity: 0.7;
 }
+
+  .misc {
+      font-size: 16px;
+      color: black;
+  }
+  p1 { /*Farve på mail og tlf*/
+      color: #b73a5c;
+  }
