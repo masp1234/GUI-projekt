@@ -1,64 +1,20 @@
-body {
-    background-color: rgb(237, 234, 208);
-}
 
-.fact{
+.facts-navbar-button{
     border-bottom-style: double;
     padding-bottom: 6px;
 
 }
-.page-container {
-    display: flex;
-    flex-direction: column;
-    margin: 40px 20%;
-    background-color: rgba(29, 119, 29, 0.596);
-    border-radius: 10px;
- }
+
 .header{
-    margin: 30px 30px;
+
+     margin:5% 20%; 
     color: rgb(255, 255, 255);
     text-align: center;
-}
-.container-1{
-    display: flex;
-    flex-direction: row;
-
-}
-.container-2 {
-    display: flex;
-    flex-direction: row-reverse;
-}
-.container {
-    justify-content: center
-}
-
-.text {
-    align-self: flex-start;
-    padding: 10px 30px;
-    color: rgb(255, 255, 255);
-    font-family: 'Source Sans Pro', sans-serif;
-    flex: 1;
-}
-.page-container img {
-    border-radius: 40px;
-    height: auto;
-    max-width: 100%;
-    padding: 30px;
-}
-.image-container {
-    align-self: center;
+    border-bottom-style: double;
+    padding-bottom: 1%;
 }
 .source-link {
-    padding: 20px;
-}
-.header {
-    border-bottom-style: double;
-    padding-bottom: 6px;
-    border-bottom-left-radius: 50px;
-    /* width: 50%; 
-    
-    prøve at få en streg under 7 spændende facts. Måske lave en container rundt om overskrift og på den måde få en border*/
-    
+    padding: 2%
 }
 
 
