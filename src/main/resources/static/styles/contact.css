@@ -29,18 +29,20 @@ ul {
      justify-content: center;*/
 
     display: flex;
-    margin: 0px auto;
+    margin: 0% auto;
     flex-wrap: wrap;
     align-items: center; /*Måske slet*/
+    justify-content: center;
 }
 
 .img { /*Image*/
     /* padding-left: 750px;*/
     border-radius: 2px;
-    width: 1519px;
+    /*width: 1519px;*/
+    width: 100%;
     height: 300px;
     object-fit: cover;
-    object-position:0% 66%;
+    object-position: 0% 66%;
 
 }
 
@@ -64,38 +66,19 @@ ul {
     width: 21px;
 }
 
-/*
-.floatContainer1 {
-    height: 250px;
-    box-shadow: 0 15px 0px #dd4b39;
-    border: 1px #55ACEE;
-    margin-left: 200px;
-    margin-top: 700px;
-    position: absolute;
-}
-.floatContainer2 {
-    position: absolute;
-    height: 250px;
-    box-shadow: 0 15px 15px #FFCF56;
-    border: 1px rebeccapurple;
-    margin-top: 700px;
-    margin-left: 700px;
-}
-*/
 .floatContainer1, .floatContainer2, .floatContainer3, .floatContainer4 { /*Info containers*/
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 10%;
-    margin: 30px 10px;
+    /*margin: 30px 10px;*/
+    margin: 1% 1%;
     padding: 0px 5px;
     border-radius: 15px;
     text-align: center;
     min-width: 250px;
     position: relative;
-    left: 14%;
     margin-top: 3%;
-
 
 }
 
@@ -124,13 +107,13 @@ p {
     box-shadow: 0 2px 4px #b73a5c;
     background: #e6e2be;
 
-
 }
 
 .floatContainer4 {
     height: 250px;
     box-shadow: 0 2px 4px #b73a5c;
     background: #e6e2be;
+
 }
 
 .container h3 {
