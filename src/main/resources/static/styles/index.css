@@ -14,7 +14,6 @@ ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    
 }
 
 
@@ -52,14 +51,15 @@ ul{
     width: 100%;
     height: auto;
     border-radius: 10%;
-
-    transition: 20s;
+    /* Var originalt 20s */
+    transition: 10s;
     
 }
 
 
 .food:hover{
-    transform: scale(1.2);
+    /* Var originalt 1.2 */
+    transform: scale(2.5);
 }
 
 
