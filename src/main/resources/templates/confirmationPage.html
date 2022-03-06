@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -7,12 +7,23 @@
     <link rel="stylesheet" href="../static/styles/footer.css" th:href="@{/styles/footer.css}">
     <link rel="stylesheet" href="/src/main/resources/static/styles/confirmationPage.css"
           th:href="@{/styles/confirmationPage.css}">
-    <meta http-equiv="refresh" content="5; URL='/'" />
+    <meta http-equiv="refresh" content="10; URL='/'" />
+    <script>
+        window.onload = () => {
+        let seconds = 10;
+
+        setInterval(myFunction, 1000);
+        function myFunction(){
+        seconds = seconds - 1;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        }
+        }
+    </script>
 
 </head>
 <body>
 <div th:replace="navbar :: navbar"></div>
-
 
 <div class="container">
     <h1>TILMELDING</h1>
@@ -25,6 +36,7 @@
 <div class="container2">
     <h3>Tak for din tilmelding! </h3>
     <button class="homepageButton homepageButton2"><a href="/" class="homepageButton3"><span>Tilbage til startsiden</span></a></button>
+    <p>Du bliver sendt tilbage på startsiden om <span id="seconds">10</span> sekunder</p>
 </div>
 
 <div th:replace="footer :: footer"></div>
