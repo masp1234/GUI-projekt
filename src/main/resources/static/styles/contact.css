@@ -33,6 +33,7 @@ ul {
     flex-wrap: wrap;
     align-items: center; /*Måske slet*/
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .img { /*Image*/
