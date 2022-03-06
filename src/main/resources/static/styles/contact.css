@@ -7,7 +7,7 @@ body {
 
 }
 
-.contact{
+.contact {
     border-bottom-style: double;
     padding-bottom: 6px;
 
@@ -82,26 +82,27 @@ ul {
     margin-left: 700px;
 }
 */
-.floatContainer1, .floatContainer2, .floatContainer3, .floatContainer4 {
+.floatContainer1, .floatContainer2, .floatContainer3, .floatContainer4 { /*Info containers*/
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 10%;
-    margin: 30px 5px;
+    margin: 30px 10px;
     padding: 0px 5px;
     border-radius: 15px;
     text-align: center;
     min-width: 250px;
     position: relative;
     left: 14%;
-    margin-top: 25px;
+    margin-top: 3%;
 
 
 }
 
 p {
-    color: #104d4c;
+    font-weight: 50;
 }
+
 .floatContainer1 {
     height: 250px;
     box-shadow: 0 2px 4px #b73a5c;
@@ -109,6 +110,7 @@ p {
 
 
 }
+
 .floatContainer2 {
     height: 250px;
     box-shadow: 0 2px 4px #b73a5c;
@@ -116,6 +118,7 @@ p {
 
 
 }
+
 .floatContainer3 {
     height: 250px;
     box-shadow: 0 2px 4px #b73a5c;
@@ -123,6 +126,7 @@ p {
 
 
 }
+
 .floatContainer4 {
     height: 250px;
     box-shadow: 0 2px 4px #b73a5c;

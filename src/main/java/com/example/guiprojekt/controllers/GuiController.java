@@ -11,25 +11,35 @@ public class GuiController {
     public String index() {
         return "index";
     }
+
     @GetMapping("/about")
     public String about() {
         return "about";
     }
+
     @GetMapping("/signUp")
     public String signUp() {
         return "signUp";
     }
+
     @GetMapping("/kontakt")
     public String contact() {
         return "contact";
     }
+
     @GetMapping("/nyheder")
-        public String news() {
-            return "news";
-        }
+    public String news() {
+        return "news";
+    }
+
     @GetMapping("/fact")
     public String fact() {
         return "food-waste-facts";
+    }
+
+    @GetMapping("/confirmation")
+    public String confirmation() {
+        return "confirmationPage";
     }
 }
 

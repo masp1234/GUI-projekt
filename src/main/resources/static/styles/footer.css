@@ -2,8 +2,9 @@
 body{
     margin: 0;
     background-color: #EDEAD0;
-    color: #b73a5c; /*Heading text color*/
+    color: black; /*Heading text color*/
     font-family: sans-serif;
+    font-weight: 550;
 }
 
 
@@ -44,7 +45,7 @@ ul{
 }
 .heading{
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 799;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }

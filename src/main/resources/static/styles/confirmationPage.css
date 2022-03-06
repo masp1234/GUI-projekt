@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+    font-family: sans-serif;
+    background: #EDEAD0;
+}
+
+.container {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: #b73a5c;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+font-size: 55px;
+}
+
+h2 {
+    font-size: 75px;
+    margin-top: -2.3%;
+    color: #3AB795;
+
+}
+
+.line {
+    border: none;
+    border-top: 3px dotted #3AB795;
+    background-color: #EDEAD0;
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    margin-top: -2.5%;
+}
+.container2 {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: #104d4c;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 7%;
+
+}
+.homepageButton{
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px;
+
+    height: 35px;
+    width: 260px;
+
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.homepageButton:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.homepageButton:focus {
+    outline: none;
+}
+
+.homepageButton.homepageButton2 {
+    background-image: linear-gradient(
+            to right, #3ab795, #59cbac, #46c4a2, #34a485);
+    box-shadow: 0 5px 15px rgba(16, 49, 40, 0.4);
+}
+.homepageButton2 span {
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #EDEAD0;
+}
+.homepageButton:active {
+    position: relative;
+    top: 1px;
+}

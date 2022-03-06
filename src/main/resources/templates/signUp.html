@@ -22,7 +22,7 @@
     <div class="registerContainer">
         <div class="title">Tilmelding
         </div>
-        <form action="#"> <!--Til <input>: https://www.w3schools.com/html/html_forms.asp-->
+        <form action="#" onsubmit="location.href='/confirmation'; return false;"> <!--Til <input>: https://www.w3schools.com/html/html_forms.asp-->
             <div class="user-details">
                 <div class="input-box">
                     <span class="details-button">FORNAVN</span>
@@ -41,7 +41,7 @@
                     <span class="details-button">TELEFON</span>
                     <input type="number" placeholder=" Indtast dit telefonnummer" required>
                 </div>
-                <div class="button">
+                <div class="button"><a href="/confirmation"></a>
                     <input type="submit" value="Tilmeld"/>
                 </div>
             </div>

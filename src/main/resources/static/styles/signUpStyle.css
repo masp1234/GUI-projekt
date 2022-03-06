@@ -111,9 +111,13 @@ form .button input { /*"Tilmeld"-BUTTON*/
     font-weight: 900;
     font-size: 27px;
     background: #3AB795;
-    color: #EDEAD0;
+    color: #ffffff;
     text-transform: uppercase;
     box-shadow: 1px 2px #888888;
+}
+form .button:active {
+    position: relative;
+    top: 1px;
 }
 
 .user-details .input-box span.details-button{
